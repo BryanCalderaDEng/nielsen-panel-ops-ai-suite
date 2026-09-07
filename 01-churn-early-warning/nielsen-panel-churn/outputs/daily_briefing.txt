@@ -1,0 +1,5 @@
+[PLACEHOLDER -- set ANTHROPIC_API_KEY to generate a live briefing]
+
+Total panelists monitored: 500
+High-risk panelists (score >= 30): 75
+Market-level anomaly days flagged: 17

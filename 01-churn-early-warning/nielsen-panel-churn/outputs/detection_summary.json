@@ -1,0 +1,294 @@
+{
+  "total_panelists": 500,
+  "alert_threshold": 30,
+  "high_risk_count": 75,
+  "top_15_at_risk": [
+    {
+      "panelist_id": 157,
+      "market": "Monterrey",
+      "panel_type": "TAM",
+      "composite_risk_score": 100.0,
+      "recent_noncompliance_rate": 0.667,
+      "baseline_noncompliance_rate": 0.043,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 11.84,
+      "event_risk_sum": 2.79
+    },
+    {
+      "panelist_id": 254,
+      "market": "Monterrey",
+      "panel_type": "TAM",
+      "composite_risk_score": 100.0,
+      "recent_noncompliance_rate": 0.533,
+      "baseline_noncompliance_rate": 0.043,
+      "recent_missing_days": 1.0,
+      "compliance_z_score": 9.3,
+      "event_risk_sum": 1.7
+    },
+    {
+      "panelist_id": 97,
+      "market": "CDMX",
+      "panel_type": "TAM",
+      "composite_risk_score": 100.0,
+      "recent_noncompliance_rate": 0.667,
+      "baseline_noncompliance_rate": 0.043,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 11.84,
+      "event_risk_sum": 0.56
+    },
+    {
+      "panelist_id": 336,
+      "market": "Monterrey",
+      "panel_type": "TAM",
+      "composite_risk_score": 100.0,
+      "recent_noncompliance_rate": 0.467,
+      "baseline_noncompliance_rate": 0.022,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 11.82,
+      "event_risk_sum": 1.57
+    },
+    {
+      "panelist_id": 413,
+      "market": "Puebla",
+      "panel_type": "Audio",
+      "composite_risk_score": 100.0,
+      "recent_noncompliance_rate": 0.6,
+      "baseline_noncompliance_rate": 0.109,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 6.11,
+      "event_risk_sum": 3.96
+    },
+    {
+      "panelist_id": 138,
+      "market": "Puebla",
+      "panel_type": "Audio",
+      "composite_risk_score": 100.0,
+      "recent_noncompliance_rate": 0.267,
+      "baseline_noncompliance_rate": 0.0,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 10.38,
+      "event_risk_sum": 0.17
+    },
+    {
+      "panelist_id": 261,
+      "market": "Guadalajara",
+      "panel_type": "TAM",
+      "composite_risk_score": 100.0,
+      "recent_noncompliance_rate": 0.667,
+      "baseline_noncompliance_rate": 0.087,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 7.97,
+      "event_risk_sum": 2.2199999999999998
+    },
+    {
+      "panelist_id": 140,
+      "market": "Guadalajara",
+      "panel_type": "TAM",
+      "composite_risk_score": 99.8,
+      "recent_noncompliance_rate": 0.333,
+      "baseline_noncompliance_rate": 0.022,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 8.28,
+      "event_risk_sum": 1.7000000000000002
+    },
+    {
+      "panelist_id": 362,
+      "market": "Monterrey",
+      "panel_type": "Audio",
+      "composite_risk_score": 96.3,
+      "recent_noncompliance_rate": 0.533,
+      "baseline_noncompliance_rate": 0.065,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 7.34,
+      "event_risk_sum": 2.29
+    },
+    {
+      "panelist_id": 356,
+      "market": "Tijuana",
+      "panel_type": "TAM",
+      "composite_risk_score": 90.2,
+      "recent_noncompliance_rate": 0.333,
+      "baseline_noncompliance_rate": 0.065,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 4.21,
+      "event_risk_sum": 4.81
+    },
+    {
+      "panelist_id": 447,
+      "market": "Puebla",
+      "panel_type": "TAM",
+      "composite_risk_score": 87.8,
+      "recent_noncompliance_rate": 0.333,
+      "baseline_noncompliance_rate": 0.022,
+      "recent_missing_days": 1.0,
+      "compliance_z_score": 8.28,
+      "event_risk_sum": 0.0
+    },
+    {
+      "panelist_id": 71,
+      "market": "Tijuana",
+      "panel_type": "TAM",
+      "composite_risk_score": 86.1,
+      "recent_noncompliance_rate": 0.533,
+      "baseline_noncompliance_rate": 0.13,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 4.63,
+      "event_risk_sum": 3.98
+    },
+    {
+      "panelist_id": 116,
+      "market": "Puebla",
+      "panel_type": "TAM",
+      "composite_risk_score": 85.1,
+      "recent_noncompliance_rate": 0.467,
+      "baseline_noncompliance_rate": 0.065,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 6.3,
+      "event_risk_sum": 2.21
+    },
+    {
+      "panelist_id": 237,
+      "market": "Monterrey",
+      "panel_type": "TAM",
+      "composite_risk_score": 85.1,
+      "recent_noncompliance_rate": 0.467,
+      "baseline_noncompliance_rate": 0.109,
+      "recent_missing_days": 2.0,
+      "compliance_z_score": 4.45,
+      "event_risk_sum": 3.06
+    },
+    {
+      "panelist_id": 462,
+      "market": "CDMX",
+      "panel_type": "Audio",
+      "composite_risk_score": 84.2,
+      "recent_noncompliance_rate": 0.733,
+      "baseline_noncompliance_rate": 0.13,
+      "recent_missing_days": 0.0,
+      "compliance_z_score": 6.93,
+      "event_risk_sum": 1.49
+    }
+  ],
+  "market_anomaly_count": 17,
+  "market_anomalies": [
+    {
+      "market": "Monterrey",
+      "date": "2026-08-13",
+      "response_rate": 0.832,
+      "rolling_mean": 0.924,
+      "z_score": -4.21
+    },
+    {
+      "market": "Monterrey",
+      "date": "2026-08-14",
+      "response_rate": 0.869,
+      "rolling_mean": 0.922,
+      "z_score": -2.21
+    },
+    {
+      "market": "Monterrey",
+      "date": "2026-08-15",
+      "response_rate": 0.85,
+      "rolling_mean": 0.919,
+      "z_score": -2.53
+    },
+    {
+      "market": "Monterrey",
+      "date": "2026-08-16",
+      "response_rate": 0.832,
+      "rolling_mean": 0.917,
+      "z_score": -2.69
+    },
+    {
+      "market": "Monterrey",
+      "date": "2026-08-17",
+      "response_rate": 0.748,
+      "rolling_mean": 0.911,
+      "z_score": -3.71
+    },
+    {
+      "market": "Monterrey",
+      "date": "2026-08-19",
+      "response_rate": 0.766,
+      "rolling_mean": 0.902,
+      "z_score": -2.59
+    },
+    {
+      "market": "Monterrey",
+      "date": "2026-08-21",
+      "response_rate": 0.776,
+      "rolling_mean": 0.894,
+      "z_score": -2.08
+    },
+    {
+      "market": "Puebla",
+      "date": "2026-08-19",
+      "response_rate": 0.7,
+      "rolling_mean": 0.874,
+      "z_score": -4.73
+    },
+    {
+      "market": "Puebla",
+      "date": "2026-08-20",
+      "response_rate": 0.75,
+      "rolling_mean": 0.87,
+      "z_score": -2.77
+    },
+    {
+      "market": "Puebla",
+      "date": "2026-08-22",
+      "response_rate": 0.725,
+      "rolling_mean": 0.862,
+      "z_score": -2.72
+    },
+    {
+      "market": "Puebla",
+      "date": "2026-08-23",
+      "response_rate": 0.725,
+      "rolling_mean": 0.857,
+      "z_score": -2.35
+    },
+    {
+      "market": "Tijuana",
+      "date": "2026-08-14",
+      "response_rate": 0.883,
+      "rolling_mean": 0.928,
+      "z_score": -3.23
+    },
+    {
+      "market": "Tijuana",
+      "date": "2026-08-15",
+      "response_rate": 0.844,
+      "rolling_mean": 0.925,
+      "z_score": -3.92
+    },
+    {
+      "market": "Tijuana",
+      "date": "2026-08-16",
+      "response_rate": 0.818,
+      "rolling_mean": 0.921,
+      "z_score": -3.64
+    },
+    {
+      "market": "Tijuana",
+      "date": "2026-08-17",
+      "response_rate": 0.753,
+      "rolling_mean": 0.916,
+      "z_score": -3.9
+    },
+    {
+      "market": "Tijuana",
+      "date": "2026-08-18",
+      "response_rate": 0.753,
+      "rolling_mean": 0.91,
+      "z_score": -3.07
+    },
+    {
+      "market": "Tijuana",
+      "date": "2026-08-22",
+      "response_rate": 0.74,
+      "rolling_mean": 0.894,
+      "z_score": -2.53
+    }
+  ]
+}
