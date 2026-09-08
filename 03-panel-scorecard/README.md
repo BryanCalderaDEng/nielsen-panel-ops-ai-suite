@@ -26,14 +26,9 @@ streamlit run app.py
 
 Opens at `http://localhost:8501`.
 
-## Deploy it publicly (free, ~5 minutes)
+## Deploy made in streamlit.io
 
-1. Push this project folder to your GitHub repo (same repo as Projects 1 and 2 is fine — Streamlit Cloud can point at a subfolder).
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with your GitHub account.
-3. Click **"New app"**, select this repository, and set:
-   - **Main file path:** `03-panel-scorecard/app.py` (adjust to wherever this folder lands in your repo)
-   - **Requirements file:** automatically detected from `requirements.txt`
-4. Click **Deploy**. You'll get a public URL like `https://your-app-name.streamlit.app` — put that link directly in your internal application and on LinkedIn.
+https://nielsen-panel-ops-ai-suite-egblysyb2hwcjxg9d3hgbo.streamlit.app/
 
 ## What's in the dashboard
 
