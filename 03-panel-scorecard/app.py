@@ -161,5 +161,3 @@ st.caption(
     "Data is fully synthetic, generated for portfolio demonstration purposes. "
     "No real Nielsen panel data is used or represented in this dashboard."
 )
-
-Fix DATA_DIR to resolve relative to script location
