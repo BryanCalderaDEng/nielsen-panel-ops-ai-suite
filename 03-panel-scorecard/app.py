@@ -27,9 +27,9 @@ st.set_page_config(
     layout="wide",
 )
 
-import os BASE_DIR = os.path.dirname(os.path.abspath(__file__)) 
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
-
 
 @st.cache_data
 def load_data():
