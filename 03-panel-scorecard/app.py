@@ -27,7 +27,8 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_DIR = "data"
+import os BASE_DIR = os.path.dirname(os.path.abspath(__file__)) 
+DATA_DIR = os.path.join(BASE_DIR, "data")
 
 
 @st.cache_data
@@ -160,3 +161,5 @@ st.caption(
     "Data is fully synthetic, generated for portfolio demonstration purposes. "
     "No real Nielsen panel data is used or represented in this dashboard."
 )
+
+Fix DATA_DIR to resolve relative to script location
