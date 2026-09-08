@@ -31,6 +31,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
+
 @st.cache_data
 def load_data():
     risk = pd.read_csv(f"{DATA_DIR}/panelist_risk_scores.csv")
@@ -114,8 +115,31 @@ with left:
         trend, x="date", y="response_rate", color="market",
         labels={"response_rate": "Response rate", "date": "Date"},
     )
+
+    # Overlay the exact days flagged in the market-anomaly table as markers,
+    # so the visual dip in the trend line and the anomaly table below are
+    # visibly the same event, not two disconnected views of the data.
+    if len(anomalies_view):
+        anomaly_points = anomalies_view.copy()
+        anomaly_points["date"] = pd.to_datetime(anomaly_points["date"])
+        fig.add_scatter(
+            x=anomaly_points["date"],
+            y=anomaly_points["response_rate"],
+            mode="markers",
+            marker=dict(symbol="x", size=10, color="white",
+                        line=dict(width=1, color="black")),
+            name="Flagged anomaly day",
+            hovertemplate="%{x|%b %d}<br>Response rate: %{y:.1%}<br>Flagged as anomaly<extra></extra>",
+        )
+
     fig.update_layout(yaxis_tickformat=".0%", legend_title_text="Market", height=380)
     st.plotly_chart(fig, use_container_width=True)
+    if len(anomalies_view):
+        st.caption(
+            "\u2716 markers show days flagged in the anomaly table below \u2014 "
+            "the same event, shown two ways: visually here, and with the "
+            "exact z-score in the table."
+        )
 
 with right:
     st.subheader("Panelist tenure distribution")
@@ -146,7 +170,10 @@ with left2:
 
 with right2:
     st.subheader("Market-level anomaly days")
-    st.caption("Days where a market's response rate broke a 2-sigma band vs. its own 30-day trailing average.")
+    st.caption(
+        "Days where a market's response rate broke a 2-sigma band vs. its own "
+        "30-day trailing average \u2014 the same days marked with \u2716 in the trend chart above."
+    )
     if len(anomalies_view):
         st.dataframe(
             anomalies_view.sort_values("date", ascending=False),
