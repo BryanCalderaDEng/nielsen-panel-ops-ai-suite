@@ -105,7 +105,7 @@ nielsen-compliance-rca/
 └── README.md
 ```
 
-## Next steps for this portfolio
+## Next steps of this portfolio
 
 - Project 3: wrap the risk scores from Project 1 and the RCA evidence
   pattern from this project into an interactive Streamlit scorecard,
